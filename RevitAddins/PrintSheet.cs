@@ -38,9 +38,8 @@ namespace RevitAddins
                     viewSet.Insert(viewSheet);
                 }
                 
-                //bluebeam 
+
                 pm.SelectNewPrintDriver("Microsoft Print to PDF");
-                //selected
                 pm.PrintRange = PrintRange.Select;
 
                 
