@@ -1,0 +1,6 @@
+C:\Users\Lenovo\Desktop\RevitAddins\RevitAddins\bin\Debug\RevitAddins.dll
+C:\Users\Lenovo\Desktop\RevitAddins\RevitAddins\bin\Debug\RevitAddins.pdb
+C:\Users\Lenovo\Desktop\RevitAddins\RevitAddins\obj\Debug\RevitAddins.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\RevitAddins\RevitAddins\obj\Debug\RevitAddins.dll
+C:\Users\Lenovo\Desktop\RevitAddins\RevitAddins\obj\Debug\RevitAddins.pdb
+C:\Users\Lenovo\Desktop\RevitAddins\RevitAddins\obj\Debug\RevitAddins.csprojAssemblyReference.cache

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+ <!--<AddIn Type="Command">
+    <Text>Show Element Info</Text>
+    <Description>Show Revit Element Info</Description>
+    <Assembly>RevitAddins.dll</Assembly>
+    <FullClassName>RevitAddins.Command</FullClassName>
+    <ClientId>302ebb4f-78df-4de7-8db6-ebb5e90e1fd3</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+	
+	<AddIn Type="Command">
+		<Text>Collect Windows</Text>
+		<Description>Show The Count Of Windows</Description>
+		<Assembly>RevitAddins.dll</Assembly>
+		<FullClassName>RevitAddins.CollectWindows</FullClassName>
+		<ClientId>BF99CBDD-3556-43E4-8B64-5F4C23B7B6FA</ClientId>
+		<VendorId>com.typepad.thebuildingcoder</VendorId>
+		<VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Text>Delete Element</Text>
+		<Description>Delete chosen element.</Description>
+		<Assembly>RevitAddins.dll</Assembly>
+		<FullClassName>RevitAddins.DeleteElement</FullClassName>
+		<ClientId>E6CFC70E-A401-46CE-92B0-E6D299C3C442</ClientId>
+		<VendorId>com.typepad.thebuildingcoder</VendorId>
+		<VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Text>Place Family</Text>
+		<Description>Place Family</Description>
+		<Assembly>RevitAddins.dll</Assembly>
+		<FullClassName>RevitAddins.PlaceFamily</FullClassName>
+		<ClientId>49EF2CD1-AD5F-478C-B215-099E2EB9ADC9</ClientId>
+		<VendorId>com.typepad.thebuildingcoder</VendorId>
+		<VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Text>Place Line Elements</Text>
+		<Description>Place Line Elements</Description>
+		<Assembly>RevitAddins.dll</Assembly>
+		<FullClassName>RevitAddins.PlaceLineElements</FullClassName>
+		<ClientId>FFC2EE43-920F-40FC-9128-6A8F9AFA1C70</ClientId>
+		<VendorId>com.typepad.thebuildingcoder</VendorId>
+		<VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+	</AddIn>
+	
+	<AddIn Type="Command">
+		<Text>Place Loop Element</Text>
+		<Description>Place Loop Element</Description>
+		<Assembly>RevitAddins.dll</Assembly>
+		<FullClassName>RevitAddins.PlaceLoopElement</FullClassName>
+		<ClientId>8DFDF6E6-CDF9-4ECB-88E9-E5DD98C78348</ClientId>
+		<VendorId>com.typepad.thebuildingcoder</VendorId>
+		<VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Text>Get Parameter</Text>
+		<Description>Get parameter</Description>
+		<Assembly>RevitAddins.dll</Assembly>
+		<FullClassName>RevitAddins.GetParameter</FullClassName>
+		<ClientId>D14CC2B6-B878-4586-9DD4-1603AFFD78DE</ClientId>
+		<VendorId>com.typepad.thebuildingcoder</VendorId>
+		<VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Text>Set Parameter</Text>
+		<Description>Set parameter</Description>
+		<Assembly>RevitAddins.dll</Assembly>
+		<FullClassName>RevitAddins.SetParameter</FullClassName>
+		<ClientId>7F126FD8-8D58-4FDA-9B63-BEF644E7B0DF</ClientId>
+		<VendorId>com.typepad.thebuildingcoder</VendorId>
+		<VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Text>Change Location</Text>
+		<Description>Change object location</Description>
+		<Assembly>RevitAddins.dll</Assembly>
+		<FullClassName>RevitAddins.ChangeLocation</FullClassName>
+		<ClientId>BE068F74-07BE-4E41-9EC7-0B7F61D0A111</ClientId>
+		<VendorId>com.typepad.thebuildingcoder</VendorId>
+		<VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Text>Move+Rotate element</Text>
+		<Description>Move+Rotate element</Description>
+		<Assembly>RevitAddins.dll</Assembly>
+		<FullClassName>RevitAddins.EditElement</FullClassName>
+		<ClientId>630D383D-7BCB-48BE-A916-C3AE01F9DAA0</ClientId>
+		<VendorId>com.typepad.thebuildingcoder</VendorId>
+		<VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Text>Select Geometry</Text>
+		<Description>Select Geometry</Description>
+		<Assembly>RevitAddins.dll</Assembly>
+		<FullClassName>RevitAddins.SelectGeometry</FullClassName>
+		<ClientId>A66FC7C3-F696-41F7-8D99-107DD3F999C9</ClientId>
+		<VendorId>com.typepad.thebuildingcoder</VendorId>
+		<VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Text>Element Intersection</Text>
+		<Description>Element Intersection</Description>
+		<Assembly>RevitAddins.dll</Assembly>
+		<FullClassName>RevitAddins.ElementIntersection</FullClassName>
+		<ClientId>20490786-5452-4F42-892B-40B3000ECDC1</ClientId>
+		<VendorId>com.typepad.thebuildingcoder</VendorId>
+		<VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+	</AddIn>
+	
+	<AddIn Type="Command">
+		<Text>Print sheet.</Text>
+		<Description>One/Few</Description>
+		<Assembly>RevitAddins.dll</Assembly>
+		<FullClassName>RevitAddins.PrintSheet</FullClassName>
+		<ClientId>07EDA2F3-B939-4574-B815-9FC0B525ED51</ClientId>
+		<VendorId>com.typepad.thebuildingcoder</VendorId>
+		<VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+	</AddIn>
+	-->
+	
+  <AddIn Type="Application">
+    <Name>Application RevitAddins</Name>
+    <Assembly>RevitAddins.dll</Assembly>
+    <FullClassName>RevitAddins.App</FullClassName>
+    <ClientId>504689ca-f975-46ae-9dea-b55849e54f89</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+	<!--
+	<AddIn Type="DBApplication">
+		<Name>Application RevitAddins</Name>
+		<Assembly>RevitAddins.dll</Assembly>
+		<FullClassName>RevitAddins.ExternalDBApp</FullClassName>
+		<ClientId>671BF295-3281-491B-8364-391DD2E3054F</ClientId>
+		<VendorId>com.typepad.thebuildingcoder</VendorId>
+		<VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+	</AddIn>-->
+</RevitAddIns>
