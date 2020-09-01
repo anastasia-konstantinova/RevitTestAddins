@@ -19,7 +19,7 @@ namespace RevitAddins
         {
             UIDocument uidoc = commandData.Application.ActiveUIDocument;
             Document doc = uidoc.Document;
-
+            //collect all rebar items 
             FilteredElementCollector collector = new FilteredElementCollector(doc);
             ElementCategoryFilter filter = new ElementCategoryFilter(BuiltInCategory.OST_Rebar);
             IList<Element> bars = collector.WherePasses(filter).WhereElementIsNotElementType().ToElements();
