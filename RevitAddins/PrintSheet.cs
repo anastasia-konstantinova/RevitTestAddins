@@ -40,6 +40,7 @@ namespace RevitAddins
                 
                 //bluebeam 
                 pm.SelectNewPrintDriver("Microsoft Print to PDF");
+                //selected
                 pm.PrintRange = PrintRange.Select;
 
                 
